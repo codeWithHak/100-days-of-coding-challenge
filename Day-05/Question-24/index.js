@@ -13,19 +13,15 @@ Test whether an item is in a array
 
 Test whether an item is not in a array
 */
-
-
-let result = "Passed";
+var result = "Passed";
 console.log("Is result == Passed? I predict true");
 console.log(result == "Passed");
 console.log("Is result != Passed I predict false");
 console.log(result != "Passed");
-
-let username = "User"
+var username = "User";
 console.log("Is username == username.toLowerCase()? I preditc false");
 console.log(username == username.toLowerCase());
-
-let myNum = 10;
+var myNum = 10;
 console.log("Is myNum == 10? I predict true");
 console.log(myNum == 10);
 console.log("Is myNum != 10? I predict false");
@@ -38,29 +34,18 @@ console.log("Is myNum >= 10? I predict true");
 console.log(myNum >= 10);
 console.log("Is myNum <= 10? I predict true");
 console.log(myNum <= 10);
-
-console.log("Is myNum is > 9 && < 11? I predict true" );
+console.log("Is myNum is > 9 && < 11? I predict true");
 console.log(myNum > 9 && myNum < 11);
-console.log("Is myNum is > 9 || < 11? I predict true" );
+console.log("Is myNum is > 9 || < 11? I predict true");
 console.log(myNum > 9 || myNum < 11);
-console.log("Is myNum is > 10 && < 11? I predict false" );
+console.log("Is myNum is > 10 && < 11? I predict false");
 console.log(myNum > 10 && myNum < 11);
-console.log("Is myNum is > 11 && < 9? I predict false" );
+console.log("Is myNum is > 11 && < 9? I predict false");
 console.log(myNum > 11 && myNum < 9);
-console.log("Is myNum is > 10 || < 11? I predict true" );
+console.log("Is myNum is > 10 || < 11? I predict true");
 console.log(myNum > 10 || myNum < 11);
-
 // let items = ["watch","shoes","glasses"]
 // console.log("Is 'shoes' available in items? I predict true.");
 // console.log(items.includes("shoes"));
-
-let fruits = ["apple", "banana", "cherry"];
+var fruits = ["apple", "banana", "cherry"];
 console.log("Is 'apple' in fruits?");
-
-
-
-
-
-
-
-
