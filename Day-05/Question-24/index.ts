@@ -55,7 +55,11 @@ console.log(myNum > 10 || myNum < 11);
 // console.log(items.includes("shoes"));
 
 let fruits = ["apple", "banana", "cherry"];
-console.log("Is 'apple' in fruits?");
+console.log("Is 'apple' in fruits? I predict true");
+console.log(fruits.includes("apple"));
+console.log(!fruits.includes("apple"));
+
+
 
 
 

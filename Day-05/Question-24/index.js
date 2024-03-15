@@ -49,3 +49,4 @@ console.log(myNum > 10 || myNum < 11);
 // console.log(items.includes("shoes"));
 var fruits = ["apple", "banana", "cherry"];
 console.log("Is 'apple' in fruits?");
+console.log(fruits.includes("apple"));
