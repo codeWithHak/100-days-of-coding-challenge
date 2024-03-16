@@ -5,15 +5,13 @@ If the username is 'admin', print a special greeting, such as Hello admin, would
 
 Otherwise, print a generic greeting, such as Hello Eric, thank you for logging in again.
 */
-
-let names = ["admin","khizar","huzaifa"];
-for (const iterator of names) {
+var names = ["admin", "khizar", "huzaifa"];
+for (var _i = 0, names_1 = names; _i < names_1.length; _i++) {
+    var iterator = names_1[_i];
     if (iterator == "admin") {
-        console.log(`Hello ${iterator} would you like to see status report?`);
-        
+        console.log("Hello ".concat(iterator, " would you like to see status report?"));
     }
-    else{
-    console.log(`Hello ${iterator} thanks for logging in`);
+    else {
+        console.log("Hello ".concat(iterator, " thanks for logging in"));
     }
-
 }
