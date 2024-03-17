@@ -1,9 +1,22 @@
-/*
-Q26 - Alien Colors #2: Choose a color for an alien as you did in Exercise 25, and write an if-else chain.
+let alienColor:string = "green";
 
-If the alien’s color is green, print a statement that the player just earned 5 points for shooting the alien.
+if (alienColor == "green") {
+    console.log("Congrats you just earned 5 points for shooting aliens");
+    
+}
+else if (alienColor != "green") {
+    console.log("You just earned 10 pints");
+    
+}
 
-If the alien’s color isn’t green, print a statement that the player just earned 10 points.
+alienColor = "red";
 
-Write one version of this program that runs the if block and another that runs the else block.
-*/
+if (alienColor == "green") {
+    console.log("Congrats you just earned 5 points for shooting aliens");
+    
+}
+else if (alienColor != "green") {
+    console.log("You just earned 10 pints");
+    
+}
+
