@@ -8,3 +8,13 @@ Q32 - Checking Usernames: Do the following to create a program that simulates ho
 
 - Make sure your comparison is case insensitive. If 'John' has been used, 'JOHN' should not be accepted.
 */
+
+let current_users = ["Abdullah","Khizar","Huzaifa","Hamza","Farrukh"];
+
+let new_users = ["Taha","Abdullah","Moiz","Fahad","Kamran"];
+
+
+
+
+
+

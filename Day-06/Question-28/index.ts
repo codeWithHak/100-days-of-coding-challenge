@@ -25,3 +25,5 @@ else if (age >= 65){
     console.log("The person is an elder");
     
 }
+
+export{}
