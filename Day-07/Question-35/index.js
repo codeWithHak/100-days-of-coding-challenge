@@ -4,13 +4,9 @@ Q35 - Animals: Think of at least three different animals that have a common char
 Modify your program to print a statement about each animal, such as A dog would make a great pet.
 Add a line at the end of your program stating what these animals have in common. You could print a sentence such as Any of these animals would make a great pet!
 */
-
-let animals = ["Lion","Monkey","Bull"];
-
-for (let i = 0; i < animals.length; i++) {
-    const animal = animals[i];
-    console.log(`${animal} would make a great pet`);
-    
+var animals = ["Lion", "Monkey", "Bull"];
+for (var i = 0; i < animals.length; i++) {
+    var animal = animals[i];
+    console.log("".concat(animal, " would make a great pet"));
 }
-
 console.log("Any of these animals would make a great pet");

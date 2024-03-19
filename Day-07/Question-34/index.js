@@ -5,11 +5,9 @@ Modify your for loop to print a sentence using the name of the pizza instead of 
 
 Add a line at the end of your program, outside the for loop, that states how much you like pizza. The output should consist of three or more lines about the kinds of pizza you like and then an additional sentence, such as I really love pizza!
 */
-
-let pizzaFlavours = ["Pepperoni", "Chicken Tikka", "Chikcen Fajita"];
-
-for (const pizza of pizzaFlavours) {
-    console.log(`I like ${pizza} pizza `);
+var pizzaFlavours = ["Pepperoni", "Chicken Tikka", "Chikcen Fajita"];
+for (var _i = 0, pizzaFlavours_1 = pizzaFlavours; _i < pizzaFlavours_1.length; _i++) {
+    var pizza = pizzaFlavours_1[_i];
+    console.log("I like ".concat(pizza, " pizza "));
 }
-
 console.log("I really love pizza!");
