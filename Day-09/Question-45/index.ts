@@ -4,3 +4,15 @@ Q45 - Cars: Write a function that stores information about a car in a Object. Th
 
 
 */
+
+function carInfo (manufacturer:string,model:string,...otherOption:{[key:string]: any}[]):object {
+const info = {
+    manufacturer,
+    model,
+    ...Object.assign({},...otherOption)
+}
+return info;
+}
+
+let result = carInfo("Toyota","Corolla",{color:"black"},{gear:"auto"},{features:["Power steering","Rear Camera"]})
+console.log(result);
