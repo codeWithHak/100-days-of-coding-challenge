@@ -25,3 +25,5 @@ let firsLaptop = laptop[0]
 console.log("First Laptop: ",firsLaptop);
 let secondLaptop = laptop[1]
 console.log("Second Laptop: ",secondLaptop);
+
+export{}
