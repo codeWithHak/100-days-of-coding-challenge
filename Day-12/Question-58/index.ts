@@ -1,4 +1,3 @@
-
 function averageGrade (...num:number[]):number {
 
     let average = num.reduce((a,b)=> a+b, 0 )/ num.length

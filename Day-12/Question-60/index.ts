@@ -1,5 +1,15 @@
-/*
+let userProfile = (function () {
+   let name = "Huzair"
+   let age = 18
 
-Q60 - Self-Running User Profile: Create a quick, self-setup profile for a user that can tell you the user's name and age
+   return {
+             displayInfo:function () {
+          console.log(`Name is ${name} and age is ${age}`);
+                
+    }
+   }
+    
+}
+)();
 
-*/
+userProfile.displayInfo()

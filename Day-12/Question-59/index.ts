@@ -1,6 +1,6 @@
-/*
+function addNum (num:number, num2:number) {
+    return num + num2;
 
-Q59 - Add a Special Number: Make a program that creates custom adders. These adders can add a specific number to any other number you give them later.
+}
 
-*/
-
+console.log(addNum(5,10));
