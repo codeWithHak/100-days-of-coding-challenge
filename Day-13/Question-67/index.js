@@ -4,10 +4,8 @@ Q67 - Arithmetic with Mixed Types: Write a function that takes two parameters: a
 
 
 */
-
-function returnMix (num:number,str:string):number {
-    return num + Number(str)
+function returnMix(num, str) {
+    return num + Number(str);
 }
-
-let showMix = returnMix(10,"5");
+var showMix = returnMix(10, "5");
 console.log(showMix);

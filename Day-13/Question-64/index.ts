@@ -1,5 +1,6 @@
-/*
+function returnAge (str:string,num:number) {
+    return str + num
+}
 
-Q64 - Combine Strings and Numbers: Write a function that merges a piece of text with a number. For example, if provided with "Age: " and 30, it should give back "Age: 30".
-
-*/
+let displayAge = returnAge("Age: ",30);
+console.log(displayAge);
