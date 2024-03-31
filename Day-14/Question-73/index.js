@@ -4,13 +4,10 @@ Question 73: Assigning and Updating Variables: Create a function where you decla
 
 
 */
-
-function initialVal () {
-    let value = 18;
+function initialVal() {
+    var value = 18;
     console.log(value);
-    value = 36
+    value = 36;
     console.log(value);
-    
 }
-
-initialVal()
+initialVal();
