@@ -7,3 +7,4 @@ function objProperties (obj:{}) {
 }
 
 console.log(objProperties({name:"huzair",age:"18"}));
+export{}
